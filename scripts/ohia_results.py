@@ -1,5 +1,0 @@
-#https://services1.arcgis.com/x4h61KaW16vFs7PM/arcgis/rest/services/PotentialRODArea_All/FeatureServer/5/query?f=pbf&geometry=-17532819.799939%2C1878516.4071389847%2C-16906647.664226998%2C2504688.542850986&maxRecordCountFactor=4&resultOffset=8000&resultRecordCount=8000&where=1%3D1&orderByFields=OBJECTID%20ASC&outFields=*&quantizationParameters=%7B%22extent%22%3A%7B%22xmin%22%3A-17532819.799939%2C%22ymin%22%3A1878516.4071389847%2C%22xmax%22%3A-16906647.664226998%2C%22ymax%22%3A2504688.542850986%7D%2C%22mode%22%3A%22view%22%2C%22originPosition%22%3A%22upperLeft%22%2C%22tolerance%22%3A1222.992452562501%7D&resultType=tile&spatialRel=esriSpatialRelIntersects&geometryType=esriGeometryEnvelope&defaultSR=102100
-import geopandas as gpd
-
-gdf = gpd.read_file('fha.geojson')
-gdf.to_file('ohia_hawaii.shp')
