@@ -5,6 +5,6 @@
 *.cubin
 *.fatbin
 
-*/DS_store
+*.DS_store
 
-*/data
+data/
