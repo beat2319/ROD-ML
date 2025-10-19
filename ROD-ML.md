@@ -21,12 +21,14 @@ Due April 30th 2026, and deadline January 10th 2026 abstract
 | Predictor | 2016 (July)          | 2017 (July)          | ...     | 2024 (July)          |
 | --------- | -------------------- | -------------------- | ------- | -------------------- |
 | **Raw**   | **2016 (May - Oct)** | **2017 (May - Oct)** | **...** | **2017 (May - Oct)** |
-
+- location is the Hakalau unincorporated community 
+	- ![[kakalua_community_map.pdf#page=1&rect=4,4,786,607|kakalua_community_map, p.1]]
 
 - [Predictor](https://cms.ctahr.hawaii.edu/rod/)
 	- collection with [[ohia_results.py]]
 	- plotted with originally [[test_map.r]]
-	- ![[tmapOhia-death.png]]
+	- ![[hakalau_ROD_map.pdf#page=1&rect=2,0,790,613|hakalau_ROD_map, p.1]]
+
 - [Raw](https://dataspace.copernicus.eu/explore-data)
 	- Layers OSM background as borders
 	- Sentinel-1 C-VV and C-VH backscatter values 
