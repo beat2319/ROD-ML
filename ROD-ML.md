@@ -1,6 +1,6 @@
 ## Rapid ‘Ōhi‘a Death ML Project
 - Core architecture [[Convolutional Neural Network]]
-	- Full UNet for segmentation with keep resolution high
+	- Full UNet for segmentation to keep resolution high
 	- Will use resnet18 as CNN architecture
 ### Publishing
 Due April 30th 2026, and deadline January 10th 2026 abstract
@@ -21,15 +21,16 @@ Due April 30th 2026, and deadline January 10th 2026 abstract
 ### Data
 | Predictor | 2016 (July)          | 2017 (July)          | ...     | 2024 (July)          |
 | --------- | -------------------- | -------------------- | ------- | -------------------- |
-| **Raw**   | **2016 (May - Oct)** | **2017 (May - Oct)** | **...** | **2017 (May - Oct)** |
-- location is the [Hakalau unincorporated community](obsidian://open?vault=Obsidian%20Vault&file=Projects%2FROD-ML%2Fdata%2Flocation%2Fhakalau_unicorporated%20community.kmz)
+| **Raw**   | **2016 (May - Oct)** | **2017 (May - Oct)** | **...** | **2024 (May - Oct)** |
+- location is the [Hakalau Unincorporated Community](Projects/ROD-ML/data/location/hakalau_unicorporated_community.kmz)
 	- ![[kakalua_community_map.pdf#page=1&rect=4,4,786,607|kakalua_community_map, p.1]]
 
 - [Predictor](https://cms.ctahr.hawaii.edu/rod/)
 	- collection with [[ohia_results.py]]
 	- plotted with originally [[test_map.r]]
+		- [[tmapOhia-death.png]]
 	- adapted and mapped out in ARCGIS PRO
-		- ![[hakalau_ROD_map.pdf#page=1&rect=2,0,790,613|hakalau_ROD_map, p.1]]
+		- ![[kakalau_ROD_map.pdf#page=1&rect=5,2,781,610|kakalau_ROD_map, p.1]]
 
 - [Response](https://dataspace.copernicus.eu/explore-data)
 	- Layers OSM background as borders
@@ -37,7 +38,7 @@ Due April 30th 2026, and deadline January 10th 2026 abstract
 	- ![[2025-08-07-00_00_2025-09-07-23_59_Sentinel-1_IW_VV+VH_VH_-_decibel_gamma0.jpg]]
 
 
-### [Folder Structure](https://drive.google.com/drive/folders/1C0eY5JS29bLsW9nKfr7IHuCDhcU1VHEy?usp=drive_link)
+### Folder Structure
 ```bash
 ├── data
 │   ├── location
