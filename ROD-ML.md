@@ -63,6 +63,10 @@ verbose: true
 		- convert prediction geojson and response to UTM coords
 	- Radiometric Calibration
 		- (1,0) is_rain
+		- Add speckle noise
+		- Add gaussian noise (thermal noise from instrument)
+	- Incidence angle
+		- Divide SAR image by incidence angle
 	- Geometric: Cropping, horizontal/vertical mirroring, rotation, resizing
 	- Other: Using built-in SOT (Sub-pixel Offset Tracking) 
 	- Noise: SNR changing the noise 
