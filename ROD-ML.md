@@ -55,7 +55,9 @@
 
 ```leaflet
 id: map
-geojson: [[2024ROD.geojson]]
+geojson: [[2024_ROD.geojson]]
+geojson: [[2023_ROD.geojson]]
+geojson: [[2022_ROD.geojson]]
 geojson: [[neatogeo_Hakalau Forest National Wildlife Refuge.geojson]]
 geojsonColor: red
 height: 500px
@@ -296,3 +298,5 @@ https://olmoearth.allenai.org/?utm_source=ai2-olmoearth&utm_medium=referral&utm_
   - Is there any paper that has used foundational embeddings
   - What deep learning has been used
   - what loss has been used
+- do a 3 type classification (0(not afefcted),1(affected),-1(not tree))
+	- include -1 in the loss
